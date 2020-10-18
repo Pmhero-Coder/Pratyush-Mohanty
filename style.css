@@ -40,7 +40,7 @@ body {
 
 .links {
     float: left;
-    color: chartreuse;
+    color: black;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
@@ -50,6 +50,7 @@ body {
 
 .links:hover {
     background-color: black;
+    color: #0026ff 0%;
 }
 
 p {
