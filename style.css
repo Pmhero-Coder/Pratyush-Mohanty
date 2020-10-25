@@ -51,7 +51,7 @@ body {
 
 .links:hover {
     background-color: white;
-    color: black 100%;
+    color: black 0%;
 }
 
 p {
