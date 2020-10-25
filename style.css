@@ -50,8 +50,8 @@ body {
 }
 
 .links:hover {
-    background-color: black;
-    color: #0026ff 0%;
+    background-color: white;
+    color: black 100%;
 }
 
 p {
@@ -70,4 +70,42 @@ html {
 
 a {
     text-decoration: underline;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#nasaimg {
+    height: 200px;
+    width: 300px;
+}
+
+#spaceximg {
+    height: 200px;
+    width: 300px;
+}
+
+#rowlingimg {
+    height: 300px;
+    width: 400px;
+}
+
+#riordanimg {
+    height: 325px;
+    width: px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-style {
+    margin-right: 25px;
+    margin-left: 25px;
 }
